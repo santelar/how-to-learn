@@ -26,7 +26,7 @@
   height: 608px;
   bottom: 0;
   right: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 .logo__place_header {
@@ -40,10 +40,12 @@
 
 .header__square-pic {
   position: absolute;
+  background: #2f80ed;
   top: 64px;
   right: 0;
   height: 568px;
   width: 568px;
+  z-index: 2;
   }
 
 .header__title {               
@@ -136,7 +138,7 @@
 
 .section-subtitle {
   margin: 0;
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
   width: 60%;
   min-height: 34px;
