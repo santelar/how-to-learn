@@ -168,7 +168,7 @@
 .table__text {
   line-height: 1.2;
   font-size: 17px;
-  margin-top: 20px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .feynman {
@@ -202,9 +202,11 @@
 .feynman__link {
   line-height: 51px;
   font-size: 36px;
+  color: #000000;
   position: absolute;
   bottom: 50%;
   right: 48px;
+  text-decoration: none;
 }
 
 .kaufman {
@@ -269,6 +271,8 @@
 
 .footer_author {
   margin: 18px 0 18px 0;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 .footer__column_content_info {
