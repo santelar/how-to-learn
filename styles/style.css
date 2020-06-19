@@ -94,6 +94,7 @@
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .two-columns__main-text {
@@ -267,6 +268,7 @@
 .logo_place_footer {
   width: 183px;
   height: 35px;
+  opacity: 0.2;
 }
 
 .footer_author {
