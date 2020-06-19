@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
   <link rel="stylesheet" href="./styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
@@ -15,10 +15,8 @@
       <img src="https://svgshare.com/i/Lu_.svg" alt="Logo" class="logo logo__place_header">
       <div class="header__square-pic"></div>
       <h1 class="header__title">Научиться учиться</h1>
-      <div class="subtitle">
-        <p>Какие современные и эффективные подходы к обучению вы можете 
-        использовать в своей жизни? <a href="#" class="header-link">Узнать →</a></p>
-      </div>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете 
+      использовать в своей жизни? <a href="#" class="header__link">Узнать →</a></p>
     </header>
     
     <main class="content">
@@ -96,7 +94,7 @@
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">От Джоша Кауфмана</h3>
+        <p class="section-subtitle section-subtitle_theme_dark">От Джоша Кауфмана</p>
         <div class="table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -161,19 +159,23 @@
           <p class="footer_author">&mdash; &copy; 2020. Александр Пономаренко</p>
         </div>
 
-        <div class="footer__column footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <a href="#" class="footer__column-links">Главная</a>
-          <a href="#" class="footer__column-links">Концепция</a>
-          <a href="#" class="footer__column-links">Наставники</a>
-        </div>
+          <ul class="footer__column-links">
+            <li><a href="#" class="footer__column-link">Главная</a></li>
+            <li><a href="#" class="footer__column-link">Концепция</a></li>
+            <li><a href="#" class="footer__column-link">Наставники</a></li>
+          </ul>
+        </nav>
 
-        <div class="footer__column footer__column_content_social">
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <a href="#" class="footer__column-links"><img src="https://svgshare.com/i/Ls8.svg" alt="F" class="footer__social-icon">Facebook</a>
-          <a href="#" class="footer__column-links"><img src="https://svgshare.com/i/LtT.svg" alt="VK" class="footer__social-icon">ВКонтакте</a>
-          <a href="#" class="footer__column-links"><img src="https://svgshare.com/i/LtF.svg" alt="I" class="footer__social-icon">Instagram</a>
-        </div>
+          <ul class="footer__column-links">
+            <li><a href="#" class="footer__column-link"><img src="https://svgshare.com/i/Ls8.svg" alt="Фейсбук" class="footer__social-icon">Facebook</a></li>
+            <li><a href="#" class="footer__column-link"><img src="https://svgshare.com/i/LtT.svg" alt="ВКонтакте" class="footer__social-icon">ВКонтакте</a></li>
+            <li><a href="#" class="footer__column-link"><img src="https://svgshare.com/i/LtF.svg" alt="Инстаграм" class="footer__social-icon">Instagram</a></li>
+          </ul>
+        </nav>
 
       </div>
 
