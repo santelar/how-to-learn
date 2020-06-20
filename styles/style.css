@@ -291,6 +291,7 @@
 .footer__column-links {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .footer__column-link {
@@ -310,8 +311,4 @@
   height: 16px;
   width: 16px;
   margin-right: 10px;
-}
-
-.footer__column-links {
-  list-style: none;
 }
