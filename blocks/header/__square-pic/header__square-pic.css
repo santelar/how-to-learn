@@ -1,0 +1,12 @@
+@import url(../../rotation/rotation.css);
+
+.header__square-pic {
+  position: absolute;
+  background: #2f80ed;
+  top: 64px;
+  right: 0;
+  height: 568px;
+  width: 568px;
+  z-index: 2;
+}
+
