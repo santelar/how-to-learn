@@ -1,3 +1,5 @@
+https://santelar.github.io/how-to-learn/index.html
+
 **#HOW TO LEARN#**
 
 Проектная работа на курсе Яндекс.Практикум -
